@@ -1,0 +1,12 @@
+var nome = "Olá, lucas!" // Começa com um texto.
+console.log(nome.charAt(1)) // => "h": o primeiro caractere.
+console.log(nome.charAt(nome.length-1)) // => "d": o último caractere.
+console.log(nome.substring(1,3)) // => "ell": o 2º, 3º e 4º caracteres.
+console.log(nome.slice(1,4)) // => : a mesma coisa
+console.log(nome.slice(-3)) // => : os últimos 3 caracteres
+console.log(nome.indexOf("l")) // => 2: posição da primeira letra l.
+console.log(nome.lastIndexOf("l")) // => 10: posição da última letra l.
+console.log(nome.indexOf("l", 3)) // => 3: posição do primeiro "l" em ou após 3
+console.log(nome.split(", ")) // => ["hello", "world"] divide em substrings
+console.log(nome.replace("l", "L")) // => "Hello, world": substitui todas as instâncias
+console.log(nome.toUpperCase()) // => "HELLO, WORLD"
